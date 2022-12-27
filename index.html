@@ -1,0 +1,94 @@
+<!-- <?php
+session_start();
+include('config.php');
+include('header.php');
+
+if (isset($_SESSION['loggedin'])) {
+    header('Location: index_logged.php');
+    exit;
+}
+?> -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="assets/styles.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Rufina:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="assets/logo.png">
+
+    <title>Fanbook 2SET4MIL</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top p-4" style="background-color: #FFFFFF;">
+        <a class="navbar-brand nav-text"><img src="assets/logo.png" style="height: 30px; width: auto;">&nbsp;&nbsp;<b>FANBOOK 2SET4MIL</b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto my-2 my-lg-0 nav-text">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.php">Home&nbsp;<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="about.php">About</a>
+                </li>
+                <li class="nav-item active mr-5">
+                    <a class="nav-link" href="download.php">See The Fanbook</a>
+                </li>
+                <li class="nav-item active" style="margin-left: 600px;">
+                    <a class="nav-link" href="login.php">Login</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="about.php#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="mt-2" style="font-size: 41px;">OUR THOUGHTS OF YOU</h1>
+            </div>
+            <div class="col-12">
+                <p class="p-home mt-n2"><b>2SET4MIL FANBOOK PROJECT</b></p>
+            </div>
+            <div class="col-12">
+                <p class="p-home mt-1 mb-4" style="font-size: 16px;font-weight:600;width:570px;">This is an official website of “Our Thoughts of You”, a fanbook 2SET4MIL project to celebrate TwoSet Violin’s 4 million subscriber and nine years of YouTube career milestones. It is a free project which included 127 twosetters from around the world.<br><br><b>Login</b> for personalized messages and <b>See The Fanbook</b> for downloading the fanbook and free gift!</p>
+            </div>
+            <div class="col-12">
+            <a href="login.php">
+                <button class="btn btn-primary home-b">Login</button>
+            </a>&nbsp;
+            <a href="download.php">
+                <button class="btn btn-primary home-b">See The Fanbook</button>
+            </a>
+            </div>
+        </div>
+    </div>
+
+    
+<!-- <?php
+include('footer.php');
+?> -->
+    <!-- JavaScripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
