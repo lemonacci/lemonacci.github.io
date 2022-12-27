@@ -1,0 +1,265 @@
+body {
+    padding: 10%;
+}
+
+h1 {
+    font-family: 'Rufina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 79px;
+    color: #000000;
+}
+
+h2 {
+    font-family: 'Rufina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 79px;
+    color: #000000;
+}
+
+h3 {
+    font-family: 'Rufina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 79px;
+    color: #000000;
+}
+
+form {
+    font-family: 'Quicksand';
+    font-weight: 500;
+}
+
+.nav-text {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #000000;
+}
+
+.p-home {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+.home-b {
+    height: 45px;
+    border: none;
+    border: 3px solid #7B4D2D;
+    border-radius: 6px;
+    background-color: #FFFFFF!important;
+    color: #000000;
+    font-family: 'Quicksand';
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.home-b:hover {
+    border: 3px solid #dab194;
+    border-radius: 6px;
+    color: #000000;
+    transition-duration: 2s;
+}
+
+.b-white {
+    box-sizing: border-box;
+    /* position: absolute; */
+    width: 230px;
+    height: 60px;
+    top: 450px;
+    left: 40%;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    font-family: 'Quicksand';
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.b-white:hover {
+    color: #FFFFFF;
+    background: #190f01;
+    transition-duration: 0.4s;
+}
+
+.b-black {
+    width: 100px;
+    height: 45px;
+    background: #7B4D2D;
+    border-radius: 5.62524px;
+    border-color: #7B4D2D;
+    color: #FFFFFF;
+    font-family: 'Quicksand';
+}
+
+.login-input {
+    border: 2px solid #7B4D2D;
+    border-radius: 5.62524px;
+}
+
+.p-message {
+    font-size:16px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 20px;
+    /* text-align: justify; */
+}
+
+.text-personalised {
+    width: 100%;
+    font-size:15px;
+    margin-bottom: 1%;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 21px;
+    padding: 4%;
+    text-align: justify;
+}
+
+.carousel-item img {
+    height:100%;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none!important;
+    box-shadow: none!important;
+    border: 2px solid #7B4D2D!important;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 420px) {
+
+    body { 
+        padding-top: 40%;
+        font-size: 2em; 
+        text-align: center;
+        padding-left: 25px;
+        padding-right: 20px;
+    }
+
+    h1 {        
+        font-size: 21px!important;
+        line-height: 31px;
+    }    
+
+    h2 {
+        font-size: 17px!important;
+        line-height: 19px;
+    }
+
+    h3 {
+        font-size: 14px!important;
+        line-height: 15px;
+    }
+ 
+    .p-home {
+        max-width: fit-content;
+        letter-spacing: 0.01em;
+        font-size: 11px!important;
+        text-align: center!important;
+    }
+
+    .form-label {
+        font-size: 10px;
+    }
+
+    .login-input {
+        width: 172px;
+        height: 20px;
+    }
+
+    .b-black {
+        width: 70.6px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    .home-b {
+        width: 30.22px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    form {
+        padding: 10px!important;
+    }
+
+    .home-b {
+        height: 45px;
+        width: 100px;
+        font-size: 10px;
+    }
+
+    .text-personalised {
+        padding-top: 10%!important;
+        padding-left: 2px!important;
+        padding-right: 2px!important;
+        font-size: 14px!important;
+    }
+
+    .b-white {
+        box-sizing: border-box;
+        /* position: absolute; */
+        width: 230px;
+        height: 60px;
+        top: 450px;
+        left: 40%;
+        background: #FFFFFF;
+        border: 2px solid #000000;
+        border-radius: 10px;
+        font-family: 'Quicksand';
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .b-white:hover {
+        color: #FFFFFF;
+        background: #190f01;
+        transition-duration: 0.4s;
+    }
+
+    .b-black {
+        width: 100px;
+        height: 45px;
+        background: #7B4D2D;
+        border-radius: 5.62524px;
+        border-color: #7B4D2D;
+        color: #FFFFFF;
+        font-family: 'Quicksand';
+    }
+
+    .login-input {
+        border: 2px solid #7B4D2D;
+        border-radius: 5.62524px;
+        /* width: 268.32px;
+        height: 33.19px; */
+    }
+
+    .p-message {
+        font-size:16px;
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: 500;
+        letter-spacing: 0.02em;
+        line-height: 20px;
+    }
+    
+ }
