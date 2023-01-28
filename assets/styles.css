@@ -190,6 +190,52 @@ p {
     letter-spacing: 0.5em;
 }
 
+.circle {
+    position: relative;
+    width: 200px;
+    height: 200px; 
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    position: absolute; 
+    width: 150px; 
+    height: 150px; 
+    background-size: cover; 
+    border-radius: 50%;
+    background: url(IMG_0172.JPG);
+    background-size: cover;
+    border-radius: 50%;
+    filter: grayscale(100%);
+}
+
+.abouttext {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    animation: rotateText 10s linear infinite;
+}
+
+@keyframes rotateText {
+    0% {
+        transform: rotate(360deg);
+    }
+    
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.abouttext span {
+    position: absolute;
+    left: 50%;
+    font-size: 1.2em;
+    transform-origin: 0 100px;
+}
+
 @media (max-width: 479px) {
     #side_nav {
         margin-left: -250px;
