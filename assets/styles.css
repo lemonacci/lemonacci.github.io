@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&family=Rufina:wght@400;700&display=swap');
+
+/* Variables and page setup */
+
+@font-face {
+    font-family: 'Helvetica Now Display XBlack';
+    src: url('HelveticaNowDisplayXBlk.otf') format('truetype');
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PP Agrandir';
+    src: url('PPAgrandir-GrandHeavy.otf') format('truetype');
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PP Neue Montreal';
+    src: url('PPNeueMontreal-Medium.otf') format('truetype');
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: normal;
+}
+
+::-moz-selection {
+    color: #FFFFFF;
+    background: #FC9934;
+}
+  
+::selection {
+    color: #FFFFFF;
+    background: #FC9934;
+}
+
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+.nav-line {
+    width: 1px;
+    height: 100px;
+    margin: 10px 10px;
+    background-color: #ece7e1;
+}
+
+#side_nav {
+    position: fixed;
+    /* z-index: 600; */
+    /* width: 6%; */
+    height: 100vh;
+    background: none;
+    min-width: 70px;
+    max-width: 70px;
+    left: 0;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li.active {
+    background: #000000;
+    border-radius: 8px;
+}
+
+.sidebar li a {
+    color: #fff;
+    transform: rotate(-180deg);
+    writing-mode:vertical-rl;
+    letter-spacing: 0.1em;
+    font-size: 14px;
+}
+
+.sidebar li.active a, .sidebar li a:hover {
+    text-decoration:underline!important;
+
+}
+
+.content {
+    min-height: 100vh;
+    width: 100%;
+}
+
+.text {
+    /* position: absolute; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    /* line-height: 24px; */
+    color: #FFFFFF;
+}
+
+.text a {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.head-title {
+    font-family: 'Helvetica Now Display';
+    font-weight: 950;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF!important;
+    text-decoration: none;
+}
+
+.menu-bold a {
+    /* position: absolute; */
+    font-family: 'Helvetica Now Display';
+    font-style: normal;
+    font-weight: 950;
+    font-size: 90px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF!important;
+    text-decoration: none;
+    margin-bottom: -7%;
+}
+
+.menu-bold a:hover {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #ffffff;
+    transition-duration: 0.8s;
+}
+
+.section-left {
+    /* display: flex; */
+    -webkit-box-direction: normal;
+    /* align-items: flex-start; */
+    margin-top: 65vh!important;
+}
+
+.section-right {
+    position: relative;
+    left: auto;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    /* display: flex; */
+    width: 65%;
+    height: 90vh;
+    padding-top: 5vh;
+    float: right;
+    margin-top: 35vh!important;
+}
+
+.btn-yellow {
+    width: 300px!important;
+    height: 60px;
+    background: none;
+    border-radius: 40px;
+    border: 1px #fff solid;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 20%;
+    padding: 6px 25px;
+}
+
+.btn-yellow:hover {
+    background: #fff;
+    color: #000;
+}
+
+p {
+    font-family: 'Inter', 
+    sans-serif; 
+    color: #fff; 
+    line-height: 23px; 
+    letter-spacing: 0.05em;
+    font-size: 14px;
+}
+
+.title {
+    font-family: 'Quicksand', 
+    sans-serif; 
+    color: var(--background);
+    letter-spacing: 0.5em;
+}
+
+@media (max-width: 479px) {
+    #side_nav {
+        margin-left: -250px;
+        position: fixed;
+        min-height: 100vh;
+        z-index: 1;
+    }
+
+    #side_nav {
+        margin-left: 0;
+    }
+
+    .section-left {
+        padding-top: 30%;
+        position: static;
+        width: 60%;
+        height: auto;
+        /* display: flex; */
+        margin-left: 20%;
+        margin-top: 0vh!important;
+    }
+
+    .section-right {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-left: 20%;
+        margin-top: 0vh!important;
+    }
+
+    .menu-bold a {
+        font-size: 30px;
+    }
+
+    .text p {
+        width: 70%;
+    }
+}
